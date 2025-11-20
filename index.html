@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상황별 대본 바로가기!!!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        button {
+            display: block;
+            width: 250px;
+            margin: 8px 0;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>상황별 대본 바로가기!!!!</h2>
+
+    <button onclick="openNote('코리포스.txt.html')">코리포스</button>
+    <button onclick="openNote('코리포스(퍼시픽).txt.html')">코리포스(퍼시픽)</button>
+    <button onclick="openNote('그린카.txt.html')">그린카</button>
+    <button onclick="openNote('그린카G5.txt.html')">그린카G5</button>
+    <button onclick="openNote('롯데렌터오토리스.txt.html')">롯데렌터오토리스</button>
+    <button onclick="openNote('롯데렌터카.txt.html')">롯데렌터카</button>
+    <button onclick="openNote('일반.txt')">일반</button>
+    <button onclick="openNote('쏘카쿠팡.txt')">쏘카쿠팡</button>
+    <button onclick="openNote('쏘카노일돌봄.txt')">쏘카노일돌봄</button>
+    <button onclick="openNote('쏘카탁송.txt.html')">쏘카탁송</button>
+    <button onclick="openNote('주유.txt.html')">주유</button>
+
+
+    <script>
+        function openNote(filename) {
+            window.location.href = filename;
+        }
+    </script>
+
+</body>
+</html>
